@@ -1,6 +1,8 @@
 import React, { memo } from 'react';
 import { renderRoutes } from 'react-router-config';
 import { TopMenu } from './style';
+import {Helmet} from "react-helmet";
+
 import { DiscoverWrapper} from './style';
 
 export default memo(function WYDiscover(props) {
